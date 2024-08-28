@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PDC50Activity1.NewPage2"
+             Title="NewPage2">
+    <VerticalStackLayout           
+            Padding="30,0"
+            Spacing="25">
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            Text="Go Page 3" 
+            Clicked="OnGoPage3" />
+
+        <Button
+            Text="Go Back" 
+            Clicked="OnGoNewPage1" />
+    </VerticalStackLayout>
+</ContentPage>

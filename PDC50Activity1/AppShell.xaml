@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="PDC50Activity1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PDC50Activity1"
+    Shell.FlyoutBehavior="Disabled"
+    Title="PDC50Activity1">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    
+    <ShellContent
+        Title="Second Page"
+        ContentTemplate="{DataTemplate local:NewPage1}"
+        Route="newpage1"/>
+    <ShellContent
+        Title="Third Page"
+        ContentTemplate="{DataTemplate local:NewPage2}"
+        Route="newpage2"/>
+</Shell>
